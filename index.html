@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sắp xếp tín chỉ lịch học</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sắp xếp tín chỉ lịch học</h1>
+        <table id="schedule-table">
+            <thead>
+                <tr>
+                    <th>Tên môn học</th>
+                    <th>Tín chỉ</th>
+                    <th>Thời gian</th>
+                    <th>Ngày bắt đầu</th>
+                    <th>Ngày kết thúc</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody id="schedule-body">
+                <!-- Dữ liệu từ script.js sẽ được chèn vào đây -->
+            </tbody>
+        </table>
+        <button onclick="addRow()">Thêm dòng</button>
+    </div>
+    <script src="mon.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
